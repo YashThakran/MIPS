@@ -1,3 +1,7 @@
+import os
+
+os.environ["CUDA_VISIBLE_DEVICES"]="GPU-b810b88b-3cb4-d901-7239-efd3996b2d75"
+
 from dataclasses import dataclass
 from logging import getLogger
 from pathlib import Path
