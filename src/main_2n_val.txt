@@ -1,8 +1,0 @@
-{'setting': {'experiment': 'default', 'n_seeds': 100, 'dim_context': 10, 'n_val_data': 10000, 'n_test_data': 200000, 'n_actions': 1000, 'n_cat_per_dim': 2, 'latent_param_mat_dim': 5, 'n_cat_dim': 20, 'n_unobserved_cat_dim': 0, 'beta': -1, 'n_def_actions': 0.0, 'reward_std': 2.5, 'eps': 0.05, 'is_optimal': True, 'embed_selection': True, 'random_state': 12345, 'n_val_data_list': [800, 1600, 3200, 6400, 12800, 25600], 'n_actions_list': [10, 20, 50, 100, 200, 500, 1000, 2000, 5000], 'n_unobserved_cat_dim_list': [0, 2, 4, 6, 8, 10, 12, 14, 16, 18], 'eps_list': [0, 0.2, 0.4, 0.6, 0.8, 1.0], 'beta_list': [-3, -2, -1, -0.5, 0, 0.5, 1, 2, 3], 'noise_list': [0.5, 1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0], 'n_def_actions_list': [0.0, 0.1, 0.3, 0.5, 0.7, 0.9]}}
-[2022-12-09 07:26:04,266][__main__][INFO] - The current working directory is /home/yash20269/PROJECT/icml2022-mips/src/synthetic/logs/n_val=10000,n_actions=1000/n_emb=2,n_cat_dim=20,noise=2.5,n_def=0.0/beta=-1,eps=0.05/slope=True
-[2022-12-09 08:12:09,554][__main__][INFO] - n_val_data=800: 46.09min (diff 46.09min)
-[2022-12-09 10:08:22,027][__main__][INFO] - n_val_data=1600: 162.3min (diff 116.21min)
-[2022-12-09 12:57:53,438][__main__][INFO] - n_val_data=3200: 331.82min (diff 169.52min)
-[2022-12-09 18:02:33,541][__main__][INFO] - n_val_data=6400: 636.49min (diff 304.67min)
-[2022-12-10 01:47:06,246][__main__][INFO] - n_val_data=12800: 1101.03min (diff 464.54min)
-[2022-12-10 16:43:08,225][__main__][INFO] - n_val_data=25600: 1997.07min (diff 896.04min)
