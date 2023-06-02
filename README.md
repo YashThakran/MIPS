@@ -37,7 +37,7 @@ hydra-core = "1.0.7"
 
 The experimental workflow is implemented using [Hydra](https://github.com/facebookresearch/hydra). The commands needed to reproduce the experiments are summarized below. Please move under the `src` directly first and then run the commands. The experimental results (including the corresponding figures) will be stored in the `logs/` directory.
 
-### Section 4.1: Synthetic Data
+### Synthetic Data
 
 ```bash
 cd src
@@ -75,7 +75,7 @@ poetry run python synthetic/main_eps.py
 poetry run python synthetic/main_noise.py
 ```
 
-### Section 4.2: Real-World Data
+### Real-World Data
 
 To run the real-world experiment, please download the [Open Bandit Dataset](https://research.zozo.com/data.html) (about 11GB) and place it as `./src/real/open_bandit_dataset/`. Then, run the following command. It may take a few days.
 
